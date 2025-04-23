@@ -37,3 +37,5 @@ except ValueError:
     sys.exit()                         
 
 print (f"{dia}/{mes}/{ano}")
+
+print('teste')
