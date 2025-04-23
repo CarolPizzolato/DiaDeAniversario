@@ -1,7 +1,5 @@
 import sys
-# dia nao pode ser maior que 31
 
-#teste dia
 try:
     dia = int (input("Digite o dia do seu aniversáio: "))
     if dia > 31 or dia <= 0:
@@ -12,6 +10,7 @@ try:
 except ValueError:
     print ("Digite um número por favor")
     sys.exit()
+    
 
     
 #teste mes
@@ -36,6 +35,6 @@ except ValueError:
     print ("Digite um número por favor")
     sys.exit()                         
 
+
 print (f"{dia}/{mes}/{ano}")
 
-print('teste')
